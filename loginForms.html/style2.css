@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url("smcc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+header{
+    background-color: #0C1821;
+    padding: 20pt;
+}
+
+body{
+    background-color: #324A5F;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70pt;
+    align-items: center;
+}
+.card{
+    flex-wrap: wrap;
+    width: 300pt;
+    background-color: rgba(224, 138, 25, 0.733);
+    border-radius: 10pt;
+    box-shadow: 5pt 5pt 11pt 1pt black;
+}
+
+.title{
+    background-color: #0C1821;
+    padding: 5pt;
+    border-top-left-radius: 5pt;
+    border-top-right-radius: 5pt;
+}
+.login{
+    background-color: #0C1821;
+    padding: 5pt;
+    border-style: none;
+    width: 100%;
+    border-bottom-left-radius: 5pt;
+    border-bottom-right-radius: 5pt;
+}
+.login:hover{
+    background-color: #324A5F;
+}
+input{
+    border-style: none;
+    border-radius: 3pt;
+    opacity: 80%;
+    margin: 5pt;
+    color: black;
+}
