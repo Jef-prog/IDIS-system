@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.containerOfAll{
+    display: grid;
+    background-color: #0C1821;
+    height: 577pt;
+}
+div .logo{
+    text-align: center;
+    height: 70pt;
+}
+img{
+    height: 60pt;
+    margin: 10pt;
+    border-radius: 10%;
+}
+body{
+    background-color: #0C1821;
+}
+/*TOP PART*/
+
+
+/*CONTAINERS*/
+.subjectsContainer{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.navSubject{
+    background-color: #324A5F;
+}
+.implementContainer{
+    background-color: #0C1821;
+    
+}
+.implementContainer h5, p{
+    color: white;
+}
+.navtab button{
+    background-color: goldenrod;
+    border: none;
+    margin-right: 1pt;
+    margin-top: 30pt;
+    height: 20pt;
+    box-shadow: -1pt -1pt 15pt 1pt
+}
+main{
+    background-color: burlywood;
+    width: 97.8%;
+    border-bottom-right-radius: 10pt;
+    box-shadow: 10px 20px 20px;
+}
+.subList{
+    background-color: white;
+    margin: 15%;
+    
+}
+.subsContainer{
+    text-align: center;
+}
+
+.subjects button{
+    text-align: center;
+    margin-bottom: 5pt;
+    width: 100pt;
+}
+
+/*DISPLAYS*/
+.navSubject ul{
+    margin: 10pt;
+    padding: 5pt;
+    text-align: center;
+}
+.selectSub{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.navSubject .selectSub select{
+    /*display: none;*/
+    text-align: center;
+    border-radius: 10pt;
+    width: 70%;
+}
+.navSubject .selectIns select{
+    /*display: none;*/
+    text-align: center;
+    border-radius: 10pt;
+    width: 70%;
+    margin-left: 15%;
+}
+.selectSub button{
+    display: none;
+    border-style: none;
+    border-radius: 10pt;
+    width: 10%;
+}
+.selectSub button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: goldenrod;
+}
+.selectSub select:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+}
+.navSubject .subList button{
+    display: none;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5pt;
+    margin: 5pt;
+    padding: 3pt;
+}
+.navSubject ul button{
+    border-style: none;
+    border-radius: 10pt;
+}
+
+/*.navSubject ul div{
+    display: none;
+    position: absolute;
+}*/
+
+.navSubject ul button:hover { /*the ADD button sa ubos*/
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: goldenrod;
+}
+
+/*.navSubject button:hover .dropdownBtnContent {
+    display: block;
+}*/
+
+.navtab {
+    display: grid;
+    grid-template-columns: 49% 49%;
+}
+.navtab button{
+    border-top-left-radius: 5pt;
+    border-top-right-radius: 5pt;
+}
+
+/*FONT STYLES*/
+li{
+    list-style-type: none;
+}
+header{
+    text-align: center;
+    background-color: #324A5F;
+    padding-top: 20pt;
+}
+
+.tabcontent{
+  display: none;
+  text-align: center;
+  height: 250pt;
+}
+
+.navtab button:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    }
+
+/*MAIN nani dire dapit*/
+
+
+
+.br{
+    background-color: #324A5F;
+}
+
+table{
+    width: 95%;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.remarksTable th{
+    background-color: #0C1821;
+    text-align: center;
+    color: white;
+}
+.remarksTable tr{
+    background-color: white;
+    color: black;
+}
+.remarksTable .submitRate{
+    background-color: burlywood;
+}
+input[type=checkbox]
+{
+  transform: scale(2);
+}
+
+/*INPUTS*/
+.inputRange input{
+    margin-left: 10pt;
+}
+
+/*RESPONSIVE media*/
+@media (max-width: 600px) {
+    .navSubject ul button{
+        width: 100%;
+    }
+    .selectSub select{
+        width: 100%;
+    }
+}
+@media (min-width: 800px) {
+    .selectSub button{
+        width: 20%;
+    }
+}
+
+
+
+/* plans */
+a{
+    text-decoration-line: none;
+    color: black;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#container p{
+    color: black;
+}
+.planCard{
+    background-color: whitesmoke;
+    width: 170pt;
+    height: 180pt;
+    margin: 20pt;
+    border-top-right-radius: 10pt;
+    border-bottom-left-radius: 10pt;
+    box-shadow: 1pt 1pt 15pt 1pt;
+}
